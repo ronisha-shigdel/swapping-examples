@@ -1,0 +1,14 @@
+package Fundamentals;
+
+public class FinalCost {
+	public static void main (String[] args) {
+		FinalCost();
+	}
+	
+	public static void FinalCost () {
+		int price = 699;
+		double gst = 18.0/100;
+		double finalcost = price + (price * gst);
+		System.out.println(finalcost);
+	}
+	}

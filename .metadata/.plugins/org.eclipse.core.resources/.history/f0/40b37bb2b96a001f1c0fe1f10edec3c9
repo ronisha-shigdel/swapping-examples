@@ -1,0 +1,16 @@
+package Fundamentals;
+
+public class DominosBill {
+	public static void main(String[] args) {
+
+	}
+	
+	private static void FinalBillCalculation() {
+		double pizzaPrice = 399;
+		float noOfPizza = 2;
+		double discount = 20/100;
+		float finalBill = (pizzaPrice * noOfPizza) - discount;
+		System.out.println(finalBill);
+	}
+
+}

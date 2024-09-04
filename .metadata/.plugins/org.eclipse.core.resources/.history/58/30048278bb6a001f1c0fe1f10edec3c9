@@ -1,0 +1,16 @@
+package Fundamentals;
+
+public class TaxAmount {
+
+	public static void main(String[] args) {
+		CalculateTax();
+	}
+
+	private static void CalculateTax() {
+		int salary = 85000;
+		double taxPercentage = 20.0;
+		double taxAmount = salary * taxPercentage;
+		double takeHomePay = salary - taxAmount;
+		System.out.println(takeHomePay);
+	}
+}
